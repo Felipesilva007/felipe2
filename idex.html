@@ -5,6 +5,87 @@
    <head>
        <body>
            <h1>titulo</h1>
-           <p>paragrafo1</p>
+           <header>
+            <form>
+                <label for="pnome"> Primeiro nome</label>  <br>
+                <input type="text" id="pnome" name="pnome"> <br>
+                <label for="sobrenome"> sobrenome</label>  <br>
+                <input type="text" id="sobrenome" name="sobrenome" label>
+                <hr>
+                <input type="radio" id="m" name="sexo" value="Masculio">
+                <label for="masc">Masculino</label> <br>
+                <input type="radio" id="fem" name="sexo" value="feminino">
+                <label for="fem">feminino</label> <br>
+
+            <h3>Comida favorita</h3>
+            <input type="checkbox" id="Frutal" name="Frutal" value="Maçã">
+            <label for="Frutal">Maçã</label> <br>
+            <input type="checkbox" id="fruta2" name="fruta2" value="Banana">
+            <label for="fruta2">Banana</label> <br>
+            <input type="checkbox" id="fruta3" name="fruta3" value="Manga">
+            <label for="fruta3">Manga</label> <br>
+        </label>
+
+        <hr>
+        <input type="button" onclick="alert('Ola')" value="Aperte aqui !!">
+
+        <hr>
+        <label for="Cor"> Escolha uma cor</label>
+        <input type="color" id="Cor">
+
+        <hr>
+        <label for="data">Data nascimento</label>
+        <input type="data" id="data" name="data">
+
+        <hr>
+        <label for="datahora"> data e hora</label>
+        <input type="datetime-local" id="datahora" name="datahora">
+
+        <hr>
+        <label for="mesano"> mês e ano</label>
+         <input type="month" id="mesano" name="mesano">
+
+        <hr>
+        <label for="email">Email</label> <br>
+        <input type="email" id="email" name="email">
+
+        <hr>
+        <input type="image" src="botao_enviar.png" alt="submit" width="10%">
+
+        <hr>
+        <label for="arquivos">selecione um arquivo</label>
+        <input type="file" id="arquivos" name="arquivos">
+
+        <hr>
+        <label for="numero">selecione um número</label> <br>
+        <input type="number" id="quantity" name="quantity" min="0" max="50">
+
+        <hr>
+
+        <label for="opcao"> Escolha uma fruta</label>
+        <select id="opcao" name="fruta">
+            <option value="f0"></option>
+            <option value="f1">abacaxi</option>
+            <option value="f2">coco</option>
+            <option value="f3">manga</option>
+        </select>
+        
+            <hr>
+            <fieldset>
+            <legend>Escreva sua mensagem</legend>
+            <textarea name="mensagem" cols="30" rows="10"></textarea>
+        </fieldset>
+
+         <hr>
+         <input list="browsers">
+           <datalist id="browsers">
+           <option value="Edge">
+           <option value="Firefox">
+           <option value="Chrome">
+           <option value="Opera">
+           <option value="Safari">
+
+    </form>
+           </header>
        </body>
 </html>
