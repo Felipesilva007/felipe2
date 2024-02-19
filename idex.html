@@ -1,15 +1,35 @@
 <!DOCTYPE html>
-<html >
-  <head>
-      <title> TEST</title>
-   <head>
-       <body>
-           <h1>titulo</h1>
-           <header>
-            <form>
-                <label for="pnome"> Primeiro nome</label>  <br>
+<html>
+
+<head>
+    <title> TEST</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <!--
+     <style>
+        h1{
+            color: brown;
+            font-size: 30px;
+        }
+        form{
+            background-color: rgb(9, 204, 41);
+        }
+     
+     </style>
+    -->
+    
+    <head>
+
+    <body>
+        <h1 style="color: rgb(0, 79, 226);font-size: 300%;">formulario</h1>
+        <h1>teste</h1>
+        <h1>teste2</h1>
+        <header>
+            <form oninput=" x.value = parseInt(a.value)+parseInt(b.value)" 
+            >
+                <label for="pnome"> Primeiro nome</label> <br>
                 <input type="text" id="pnome" name="pnome"> <br>
-                <label for="sobrenome"> sobrenome</label>  <br>
+                <label for="sobrenome"> sobrenome</label> <br>
                 <input type="text" id="sobrenome" name="sobrenome" label>
                 <hr>
                 <input type="radio" id="m" name="sexo" value="Masculio">
@@ -17,75 +37,93 @@
                 <input type="radio" id="fem" name="sexo" value="feminino">
                 <label for="fem">feminino</label> <br>
 
-            <h3>Comida favorita</h3>
-            <input type="checkbox" id="Frutal" name="Frutal" value="Maçã">
-            <label for="Frutal">Maçã</label> <br>
-            <input type="checkbox" id="fruta2" name="fruta2" value="Banana">
-            <label for="fruta2">Banana</label> <br>
-            <input type="checkbox" id="fruta3" name="fruta3" value="Manga">
-            <label for="fruta3">Manga</label> <br>
-        </label>
+                <h3>Comida favorita</h3>
+                <input type="checkbox" id="Frutal" name="Frutal" value="Maçã">
+                <label for="Frutal">Maçã</label> <br>
+                <input type="checkbox" id="fruta2" name="fruta2" value="Banana">
+                <label for="fruta2">Banana</label> <br>
+                <input type="checkbox" id="fruta3" name="fruta3" value="Manga">
+                <label for="fruta3">Manga</label> <br>
+                </label>
 
-        <hr>
-        <input type="button" onclick="alert('Ola')" value="Aperte aqui !!">
+                <hr>
+                <input type="button" onclick="alert('Ola')" value="Aperte aqui !!">
 
-        <hr>
-        <label for="Cor"> Escolha uma cor</label>
-        <input type="color" id="Cor">
+                <hr>
+                <label for="Cor"> Escolha uma cor</label>
+                <input type="color" id="Cor">
 
-        <hr>
-        <label for="data">Data nascimento</label>
-        <input type="data" id="data" name="data">
+                <hr>
+                <label for="data">Data nascimento</label>
+                <input type="data" id="data" name="data">
 
-        <hr>
-        <label for="datahora"> data e hora</label>
-        <input type="datetime-local" id="datahora" name="datahora">
+                <hr>
+                <label for="datahora"> data e hora</label>
+                <input type="datetime-local" id="datahora" name="datahora">
 
-        <hr>
-        <label for="mesano"> mês e ano</label>
-         <input type="month" id="mesano" name="mesano">
+                <hr>
+                <label for="mesano"> mês e ano</label>
+                <input type="month" id="mesano" name="mesano">
 
-        <hr>
-        <label for="email">Email</label> <br>
-        <input type="email" id="email" name="email">
+                <hr>
+                <label for="email">Email</label> <br>
+                <input type="email" id="email" name="email">
 
-        <hr>
-        <input type="image" src="botao_enviar.png" alt="submit" width="10%">
+                <hr>
+                <input type="image" src="botao_enviar.png" alt="submit" width="10%">
 
-        <hr>
-        <label for="arquivos">selecione um arquivo</label>
-        <input type="file" id="arquivos" name="arquivos">
+                <hr>
+                <label for="arquivos">selecione um arquivo</label>
+                <input type="file" id="arquivos" name="arquivos">
 
-        <hr>
-        <label for="numero">selecione um número</label> <br>
-        <input type="number" id="quantity" name="quantity" min="0" max="50">
+                <hr>
+                <label for="numero">selecione um número</label> <br>
+                <input type="number" id="quantity" name="quantity" min="0" max="50">
 
-        <hr>
+                <hr>
 
-        <label for="opcao"> Escolha uma fruta</label>
-        <select id="opcao" name="fruta">
-            <option value="f0"></option>
-            <option value="f1">abacaxi</option>
-            <option value="f2">coco</option>
-            <option value="f3">manga</option>
-        </select>
-        
-            <hr>
-            <fieldset>
-            <legend>Escreva sua mensagem</legend>
-            <textarea name="mensagem" cols="30" rows="10"></textarea>
-        </fieldset>
+                <label for="opcao"> Escolha uma fruta</label>
+                <select id="opcao" name="fruta">
+                    <option value="f0"></option>
+                    <option value="f1">abacaxi</option>
+                    <option value="f2">coco</option>
+                    <option value="f3">manga</option>
+                </select>
 
-         <hr>
-         <input list="browsers">
-           <datalist id="browsers">
-           <option value="Edge">
-           <option value="Firefox">
-           <option value="Chrome">
-           <option value="Opera">
-           <option value="Safari">
+                <hr>
+                <fieldset>
+                    <legend>Escreva sua mensagem</legend>
+                    <textarea name="mensagem" cols="30" rows="10"></textarea>
+                </fieldset>
 
-    </form>
-           </header>
-       </body>
+                <hr>
+                <input list="browsers">
+                <datalist id="browsers">
+                    <option value="Edge">
+                    <option value="Firefox">
+                    <option value="Chrome">
+                    <option value="Opera">
+                    <option value="Safari">
+                </datalist><br>
+                0
+                <input type="range" id="a" name="a" value="50" >
+
+                100 +
+                <input type="number" id="b" name="b" value="50" >
+                 =
+                <output name="x" for="a b"></output>
+
+                <hr>
+
+                <video width="50%" controls muted>
+                    <source src="video 1.mp4" type="video/mp4">
+                </video>
+                <br>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oiQ3kGfZFnQ?si=62PQW9n5uRHdHtbf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            </form>
+        </header>
+    </body>
+
 </html>
