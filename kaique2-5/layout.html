@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+
+    <style>
+        #cabecalho {
+            background-color: aquamarine;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #main {
+            background-color: lightgray;
+            display: flex;
+
+        }
+
+        #navegacao {
+            background-color: black;
+            width: 20%;
+            height: 600px;
+        }
+
+        #promocoes {
+            background-color: blue;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .fotos {
+            background-color: black;
+            width: 100px;
+            height: 120px;
+            margin: 20px;
+        }
+
+        #produtos {
+            background-color: brown;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        section {
+            background-color: blueviolet;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        #logo {
+            width: 90%;
+            height: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid crimson;
+            border-radius: 10px;
+        }
+
+        #login {
+            height: 5%;
+            width: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid crimson;
+            border-radius: 10px;
+        }
+
+        h3 {
+            padding: 0;
+            margin: 0;
+        }
+
+        #listanav {
+            list-style-type: nome;
+            margin: 10px;
+        }
+    </style>
+
+
+    <header id="cabecalho">
+
+        <div id="logo">
+
+            <img src="fotologo.png" alt="foto logo" width="50%">
+            <div>
+                <h3>logo</h3>
+            </div>
+        </div>
+
+        <ul id="listamenu">
+        <li>seção1</li>
+        <li>seção2</li>
+        <li>seção3</li>
+        </ul>
+    </header>
+
+
+
+    <div id="main">
+        <nav id="navegacao">
+
+        </nav>
+
+        <section>
+
+            <div id="promocoes">
+
+                <div class="fotos"></div>
+                <div class="fotos"></div>
+                <div class="fotos"></div>
+                <div class="fotos"></div>
+                <div class="fotos"></div>
+                <div class="fotos"></div>
+
+
+
+                <div id="produtos">
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                    <div class="fotos"></div>
+                </div>
+        </section>
+
+    </div>
+
+
+    </body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Inicial</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!--
+    <style>
+        h1{ 
+            color: blueviolet;
+            font-size: 30px;
+
+        }
+        form{
+             background-color: rgb(0, 0, 0);
+        }
+    </style>
+    -->
+</head>
+
+<body>
+    <h1 style="color: rgba(14, 92, 180, 0.678);font-size: 600%;">Formulário</h1>
+    <h1>Teste</h1>
+    <h1>teste 2</h1>
+
+    <header>
+        <form oninput="x.value = parseInt(a.value)+parseInt(b.value)">
+            <label for="pnome">Primeiro Nome</label> <br>
+            <input type="text" id="pnome" name="pnome"> <br>
+            <label for="sobrenome"> sobrenome </label> <br>
+            <input type="text" id="sobrenome" name="sobrenome" label>
+
+            <hr>
+            <label for="m"></label><br>
+            <input type="radio" id="m" name="sexo" value="Masculino"><br>
+            <label for="F"><br>
+                <input type="radio" id="Fem" name="sexo" value="Feminino"> </label> <br>
+
+            <h3>Fruta Favorita</h3>
+            <input type="checkbox" id="frutal" name="frutal" value="Maçã">
+            <label for="frutal1"> Maçã </label> <br>
+            <input type="checkbox" id="fruta2" name="fruta2" value="Pera">
+            <label form="frutal2"> Pera </label>
+
+            <hr>
+
+            <input type="button" onclick="alert('óla')" value="Aperte aqui!!">
+
+            <label for="cor"> Escolha uma cor </label>
+            <input type="color" id="cor" name="cor">
+
+            <hr>
+
+            <label for="data">Data Nascimento</label>
+            <input type="date" id="data" name="data">
+
+            <hr>
+            <label for="datahora">Data e hora</label>
+            <input type="datetime-local" id="datahora" name="datahora">
+
+            <hr>
+            <label for="mes ano">mes e ano</label>
+            <input type="month" id="mes_ano" name="mes_ano">
+
+            <hr>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <hr>
+            <input type="image" src="Botão.png" alt="clique aqui" width=18% height=30%>
+
+            <hr>
+            <label for="arquivos">Selecione um arquivo</label> <br>
+            <input type="file" id="arquivos" name="arquivos">
+
+            <hr>
+            <label for="numero">escolha um valor entre 1 a 5 </label>
+            <input type="number" id="numero" name="numero" min="1" max="5">
+
+            <hr>
+            <label for="opcao">Escolha um item</label>
+            <select id="opcao" name="carro">
+                <option value="f1">Carro</option>
+                <option value="f1">Moto</option>
+                <option value="f1">Bike</option>
+            </select>
+
+            <hr>
+
+            <label for="opcao">Escolha um automovel</label>
+            <select id="opcao" name="carro" size="2" multiple>
+                <option value="f1">Carro</option>
+                <option value="f1">Moto</option>
+                <option value="f1">Bike</option>
+                <option value="f1">Foguete</option>
+            </select>
+
+            <hr>
+            <fieldset>
+                <legend>Escreva sua mensagem</legend>
+                <textarea name="mensagem" rows="10" cols="50">Deixe um recado aqui!!!!</textarea>
+            </fieldset>
+
+            <hr>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari">
+            </datalist><br>
+            <input type="range" id="a" name="a" value="50">
+            +
+            <input type="number" id="b" name="b" value="50">
+            =
+            <output name="x" for="a b"></output>
+
+            <hr>
+            <video width="50%" controls>
+                <source src="videoplayback.mp4" type="video/mp4">
+            </video>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UAesF4yaqLM?si=xpA44zIGf-_aQsTb"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </form>
+    </header>
+</body>
+
+</html>
